@@ -1,0 +1,29 @@
+int num1, num2, num3, num4, num5, per;
+   printf("Enter numbers of 5 subjects out of 100: ");
+   scanf("%d %d %d %d %d",&num1, &num2, &num3, &num4, &num5);
+   
+   per=(num1+num2+num3+num4+num5)/5;
+   
+   if (per>=90)
+   { 
+       printf("Your grade is A");
+   }
+   
+   else if (per>=80&&per<90)
+   { 
+       printf("Your grade is B");
+   }
+   else if (per<80&&per>=70)
+   { 
+       printf("Your grade is C");
+   }
+   else if (per<70&&per>=60)
+   { 
+       printf("Your grade is D");
+   }
+   else 
+   {   printf("Your grade is F");
+   
+   }
+return 0;
+}
